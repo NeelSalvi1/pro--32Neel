@@ -1,0 +1,15 @@
+class Box{
+    constructor(x, y, width, height){
+      this.x=x;
+      this.y=y;
+      this.width=width;
+      this.height=height;
+      this.body = Bodies.polygon(x,y,width,height);
+      World.add(world, this.body);
+      
+    }
+    display(){
+      
+    }
+  
+  };
